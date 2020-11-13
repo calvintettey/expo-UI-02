@@ -23,7 +23,7 @@ class SignUp extends Component {
     return (
       <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
         <View style={styles.signUpTextContainer}>
-          <Text style={styles.signUpText}>Log In</Text>
+          <Text style={styles.signUpText}>Sign Up</Text>
         </View>
 
         <View>
