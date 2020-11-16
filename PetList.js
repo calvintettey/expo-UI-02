@@ -38,17 +38,15 @@ export default function PetList() {
   return (
     <View style={styles.container}>
       <View style={styles.searchArea}>
-        {/* <Octicons name="search" size={21} color="#4e15ab" /> */}
-        {/* <Image
+        {/* <Octicons name="search" size={21} color="#4e15ab" />
+        <Image
           source={require("./assets/icons/search.png")}
           style={styles.iconStyle}
         /> */}
         <TextInput
           // onChangeText={(search) => this.setState({search})}
           placeholder="Search here"
-          inlineImageLeft="./assets/icons/search.png"
           style={styles.searchBar}
-          underlineColorAndroid="transparent"
         />
       </View>
 
@@ -75,34 +73,25 @@ const styles = StyleSheet.create({
     //   flex: 1
   },
 
-  iconStyle: {
-    paddingTop: 10,
-    //     margin: 5,
-    height: 25,
-    width: 25,
-    //     resizeMode: 'stretch',
-    //     alignItems: 'center',
+//   iconStyle: {
+//     paddingTop: 10,
+//     margin: 5,
+//     height: 25,
+//     width: 25,
+//     resizeMode: 'stretch',
+//     alignItems: 'center',
 
-    position: "absolute",
-  },
+//     position: "absolute",
+//   },
 
   searchBar: {
     flex: 1,
     fontSize: 18,
     paddingLeft: 10,
-    marginVertical: 25,
+    marginVertical: 30,
     width: "95%",
     height: 50,
     backgroundColor: "white",
     borderRadius: 15,
-
-    // flexDirection: 'row',
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // backgroundColor: '#fff',
-    // height: 50,
-    // width:"95%",
-    // borderRadius: 5,
-    // margin: 10,
   },
 });
